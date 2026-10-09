@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "172.67.71.105:8443,172.67.76.226:8443,104.26.9.178:443,172.67.74.158:8443,"
-        "104.26.5.145:443,104.26.15.41:2087,172.67.67.57:2053",
+        "dango.co:2096,ping.pe:8443,cfip.1323123.xyz:2083,api2-ide.imgnxa.com:2053,"
+        "cf.0sm.com:2083,sellerlogic.com:8443,www.redboxtools.com:2053",
     ).split(",")
     if h.strip()
 ]
